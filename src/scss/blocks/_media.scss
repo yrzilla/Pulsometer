@@ -1,0 +1,111 @@
+@media (max-width: 1200px) {
+    .promo {
+        padding: 20px 20px 10px 20px;
+        &__wrapper {
+            margin-top: 65px;
+            align-items: center;
+        }
+    
+    }
+        
+}
+
+@media (max-width: 991px) {
+    .advantages {
+        padding: 40px 0 60px 0;
+        &__wrapper {
+            margin-top: 50px;
+            justify-content: space-around;
+        }
+        &__item {
+            width: 210px;
+        }
+    }
+    .title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__descr {
+            display: none;
+        }
+    }
+    .promo {
+        min-height: 450px;
+        padding: 20px;
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__title {
+            font-size: 34px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__icons {
+            margin-top: 40px;
+        }
+    }
+}
+   
+@media (max-width: 575px) {
+    .header{
+        &__logo {
+            width: 50%;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .promo {
+        min-height: 400px;
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            text-align: center;
+        }
+        &__icons {
+            display: none;
+        }
+    }
+    .button {
+        width: 130px;
+        font-size: 11px;
+        &_main {
+            margin-top: 45px;
+            width: 280px;
+            height: 50px;
+            font-size: 15px;
+        }
+    }
+    .advantages {
+        padding: 20px 0 30px 0;
+        &__wrapper {
+            margin-top: 20px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 210px;
+            margin-top: 10px;
+        }
+        &__descr {
+            margin-top: 25px;
+        }
+        &__text {
+            margin-top: 10px;
+        }
+    }
+    .title {
+        font-size: 24px;
+    }
+    
+}
+ 
