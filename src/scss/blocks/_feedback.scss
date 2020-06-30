@@ -1,0 +1,38 @@
+.feedback {
+    padding-bottom: 70px;
+    &-item {
+        margin-top: 70px;
+        display: flex;
+        margin-bottom: 102px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &__content {
+            margin-left: 62px;
+            padding-right: 62px;
+        }
+        &__name {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+        &__count {
+            margin-top: 10px;
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 14px;
+        }
+        &__message {
+            margin-top: 16px;
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        &__image {
+            width: 169px;
+            height: 169px;
+        }
+    }
+} 
